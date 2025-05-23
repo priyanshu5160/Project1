@@ -1,11 +1,11 @@
 class Animal:
     def speak(self):
-        print("Animal speaks")
+        print("animal speaks")
 
 class Dog(Animal):
     def speak(self):
         super().speak()
-        print("Dog barks")
+        print("dog barks")
 
 dog = Dog()
 dog.speak()
